@@ -1,0 +1,13 @@
+.gris{
+    margin: auto;
+    padding-top: 47%;
+    background-color: gray;
+}
+#verde{
+    background-color: green;
+    margin-top: -47%;
+    padding: -100%;
+    padding-left: 2%;
+    height: 20px;
+    width: 90%;
+}

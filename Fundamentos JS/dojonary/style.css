@@ -1,0 +1,86 @@
+*{
+    margin:0; /* Establece espacio externo */
+    padding: 0; /* Extablece espacio interno */
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.top{
+    background-color: #ccc;
+    height: 60px;
+    padding: 20px;
+    display: flex; /*Flexiona elementos activando flexbox para elementos internos */
+    justify-content: space-between; /* Distribuye de forma uniforme los elementos en la linea*/
+    align-items: center; /* Ajusta verticalmente los elementos*/
+}
+.title{
+    font-size: 3.2rem;
+}
+.search{
+    flex:1;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 100px; /* Añade margen lateral y separa de otros elementos */
+}
+.btn{
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer; /* Agregar una mano al cursor */
+}
+.login{
+    background-color: #2b78e4;
+    color: white;
+}
+.row{
+    display: flex;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-1{
+    flex: 1;
+    margin-left: 30px;
+}
+.box{
+background-color: white;
+margin-top: 30px;
+padding: 30px;
+border: 2px solid black;
+}
+.definition{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    flex:1;
+    text-align: center;
+}
+.left p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.like{
+    background-color: #ffd966;
+}
+.definition-text{
+    flex: 3;
+    margin-left: 30px;
+    font-size: 1.4rem;
+}
+.box h2{
+    font-size: 1.7rem;
+}
+.add{
+    background-color: #93c47d;
+    width: 100%;
+    margin-top:20px;
+
+}
